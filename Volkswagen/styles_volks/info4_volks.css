@@ -1,0 +1,55 @@
+.info4--sugestoes--title {
+    font-size: 2.2rem;
+    font-family: harlow solid;
+    margin-top: 20rem;
+    text-align: center;
+}
+
+form{
+    max-width: 35rem;
+    margin: 0.6rem auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+form .input-box input,
+form textarea{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    background-color: silver;
+    border-radius: 0.5rem;
+    margin: 0.4rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form textarea{
+    resize: none;
+}
+
+.info4--btn--sugestoes {
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+    background: radial-gradient(ellipse, #af1a1f, rgba(0,0,0, 1));
+    border-radius: 2rem;
+    color: #f3f3f3;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    transition: 0.3s ease;
+    margin-top: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.info4--btn--sugestoes:hover {
+    box-shadow: 0 0 0.3rem gray;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.features--img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1.25rem;
+    padding-block: 1.25rem;
+    max-width: 600px;
+    margin-top: 5rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    margin-inline: auto;
+}
+
+.features--ford, .features--chevrolet, .features--volks {
+    flex: 1;
+    max-width: 150px;
+}
+
+@media (width < 475px) {
+    .features--img {
+        flex-direction: column;
+        width: 90%;
+        max-width: 100px;
+        margin-inline: auto;
+    }
+}

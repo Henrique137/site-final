@@ -1,0 +1,107 @@
+.redes--sociais--btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-inline: 1.25rem;
+    padding-block: 1.25rem;
+    gap: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 10rem;
+    align-items: center;
+    margin-inline: auto;
+    font-size: 1.5rem;
+}
+
+.fb {
+    display: inline-block;
+    border-radius: 50%;
+    border: solid 1px transparent;
+    width: 35px;
+    height: 35px;
+    color: blue;
+    transition: 0.3s ease;
+}
+
+.fb:hover {
+    display: inline-block;
+    box-shadow: 0 0 0.3rem gray;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.ig {
+    display: inline-block;
+    border-radius: 50%;
+    border: solid 1px transparent;
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(90deg, #9F02F4, #FE0085, #FF0067, #FC00D1, #FFCB00, #FE7900, #FE390A, #CD01E7);
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s ease;
+}
+
+.ig:hover {
+    display: inline-block;
+    box-shadow: 0 0 0.3rem gray;
+    background: linear-gradient(165deg, #9F02F4, #FE0085, #FF0067, #FC00D1, #FFCB00, #FE7900, #FE390A, #CD01E7);
+    background-size: 420% 100%;
+    -webkit-text-fill-color: white;
+    cursor: pointer;
+}
+
+.twitter {
+    display: inline-block;
+    border-radius: 50%;
+    border: solid 1px transparent;
+    width: 35px;
+    height: 35px;
+    color: #00acce; 
+    transition: 0.3s ease;
+}
+
+.twitter:hover {
+    display: inline-block;
+    box-shadow: 0 0 0.3rem gray;
+    background-color: #00acce;
+    color: white;
+    cursor: pointer;
+}
+
+.telegram {
+    display: inline-block;
+    border-radius: 50%;
+    border: solid 1px transparent;
+    width: 35px;
+    height: 35px;
+    color: #0776f5; 
+    transition: 0.3s ease;
+}
+
+.telegram:hover {
+    display: inline-block;
+    box-shadow: 0 0 0.3rem gray;
+    background-color: #0776f5;
+    color: white;
+    cursor: pointer;
+}
+
+.yt {
+    display: inline-block;
+    border-radius: 50%;
+    border: solid 1px transparent;
+    width: 35px;
+    height: 35px;
+    color: red; 
+    transition: 0.3s ease;
+}
+
+.yt:hover {
+    display: inline-block;
+    box-shadow: 0 0 0.3rem gray;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+.info5 {
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 1.25rem;
+    padding-block: 1.25rem;
+    overflow: hidden;
+    text-align: center;
+    margin-inline: auto;
+}
+
+.info5--contatos--title {
+    font-family: harlow solid;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.info5--btn--telefone, .info5--btn--whatsapp {
+    padding: 0.8em 2em;
+    display: flex;
+    margin: 0.8rem auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    align-items: center;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    justify-content: center;
+    letter-spacing: 0.05em;
+    border: solid 0.15rem limegreen;
+    background-color: white;
+    color: black;
+    transition: 0.5s ease;
+    gap: 0.2rem;
+    text-align: center;
+}
+
+.info5--btn--telefone:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 0.3rem gray;
+    background-color: inherit;
+    background: limegreen;
+    color: white;
+    cursor: pointer;
+}
+
+.info5--btn--whatsapp:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 0.3rem gray;
+    background-color: inherit;
+    background: limegreen;
+    color: white;
+    cursor: pointer;
+}
